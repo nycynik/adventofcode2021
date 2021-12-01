@@ -122,6 +122,8 @@ async function getInput(year: number, day: number, session: string): Promise<str
     } catch (err) {
       console.error(err);
     }
+  } else {
+    console.log(chalk.yellow("no session found not attempting to download input."))
   }
 
   return "";

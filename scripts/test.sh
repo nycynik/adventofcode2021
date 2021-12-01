@@ -1,4 +1,4 @@
 #!/bin/bash
 
 DAY=$1
-jest --passWithNoTests ./test/${DAY}.test.ts
+jest --passWithNoTests ./test/${DAY}.test.ts --watch
