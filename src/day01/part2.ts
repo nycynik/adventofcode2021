@@ -5,12 +5,12 @@
 export function part2(input: string): number {
   let count = 0
 
-  const splitInput = input.split(/[\r\n]+/)
+  const splitInput = input.split(/[\r\n]+/).map(Number)
   if (splitInput.length < 4) return 0;
 
   for (let i = 3; i < splitInput.length; i++) {
-    const value = parseInt(splitInput[i])
-    const lastValue = parseInt(splitInput[i-3])
+    const value = splitInput[i]
+    const lastValue = splitInput[i-3]
 
     if (value > lastValue) {
       count += 1;
