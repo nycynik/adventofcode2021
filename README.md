@@ -8,6 +8,11 @@
      (         )   *         *              *        * 
 </pre>
 
+# Puzzles
+
+* [Day 01](./src/day01/README.md)
+* [Day 02](./src/day02/README.md)
+
 # Starter Template
 I started with this helpful starter - https://github.com/ljgago/advent-of-code-typescript-starter
 I've never used it before, but I'm excited that it existed! Thanks!
@@ -25,7 +30,7 @@ as typescript transpiler and [swc](https://swc.rs) with [Jest](https://jestjs.io
     $ cd aoc-typescript
 
     # install dependencies
-    $ npm install
+    $ yarn install
 
     # check syntax with eslint
     $ npm run lint day01
