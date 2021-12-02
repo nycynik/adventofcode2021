@@ -1,5 +1,12 @@
 # adventofcode2021
-advent of code - https://adventofcode.com/ 2021 competition 
+<pre>
+ *        +     *           *           *
+      *  ( )          advent of code *           *
+   *    (   )    *    2021    *
+       (     )      * https://adventofcode.com/        *
+*     (       )                *      *         * 
+     (         )   *         *              *        * 
+</pre>
 
 # Starter Template
 I started with this helpful starter - https://github.com/ljgago/advent-of-code-typescript-starter
