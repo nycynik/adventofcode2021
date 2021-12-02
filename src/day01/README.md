@@ -1,5 +1,11 @@
 # Advent of Code - Day 1 - Sonar Sweep
 
+## Puzzle Notes
+
+Part 1 was fairly straight forward.  
+
+Part two introduced a sliding window. I noticed that the sliding window was using addition and included common factors, by factoring them out, it reduced the comparison to just two array entries.
+
 ## Part One
 
 You're minding your own business on a ship at sea when the overboard alarm goes off! You rush to see if you can help. Apparently, one of the Elves tripped and accidentally sent the sleigh keys flying into the ocean!
