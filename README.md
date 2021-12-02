@@ -1,10 +1,10 @@
 # adventofcode2021
 <pre>
- *        +     *           *           *
+ *        +     *           *           *                *        *
       *  ( )          advent of code *           *
-   *    (   )    *    2021    *
+   *    (   )    *    2021    *            *                   *          *
        (     )      * https://adventofcode.com/        *
-*     (       )                *      *         * 
+*     (       )                *      *         *          *        *
      (         )   *         *              *        * 
 </pre>
 
@@ -14,7 +14,7 @@ I've never used it before, but I'm excited that it existed! Thanks!
 
 
 # basics 
-(copied form the readme)
+(copied from the readme)
 
 ## Usage
 
