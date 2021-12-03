@@ -10,8 +10,9 @@
 
 # Puzzles
 
-* [Day 01](./src/day01/README.md)
-* [Day 02](./src/day02/README.md)
+* [Day 01](./src/day01/README.md) ⭐⭐
+* [Day 02](./src/day02/README.md) ⭐⭐
+* [Day 03](./src/day03/README.md) ⭐⭐
 
 # Starter Template
 I started with this helpful starter - https://github.com/ljgago/advent-of-code-typescript-starter
