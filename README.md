@@ -13,6 +13,7 @@
 | S  | M  | T  | W  | Th | F | S |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |   |   |   | [Day 01](./src/day01/README.md) ⭐⭐ | [Day 02](./src/day02/README.md) ⭐⭐ | [Day 03](./src/day03/README.md) ⭐⭐  | [Day 04](./src/day04/README.md) ⭐⭐ |
+| [Day 05](./src/day05/README.md) ⭐⭐  |   |   |   |  |  |  |
 
 
 # Starter Template

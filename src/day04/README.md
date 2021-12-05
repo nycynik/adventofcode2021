@@ -2,6 +2,21 @@
 
 ## Puzzle Notes
 
+Today's puzzle involves making a [bingo](./bingo.ts) board simulator :) There were two approaches I thought about, the first was to have 
+the boards be a single array, the second was a real 2d array. I really missed python this week!
+
+I ended up going 2d array - easier to reason around. That allowed me to use a transpose to check winning in the second 
+direction, and that made it fairly simple. I think I could have done the same by ordering the index in the nexted loops, 
+but transpose felt more natural.
+
+The board checks seem very slow to me, and it might be optimizable in a few ways, but if I were to do it, I would check for winning when a spot is marked, that way instead of scanning the whole board, I just need to scan in the row and col that was just marked.
+
+For fun I rendered the board, but if I didn't need to/want to do that, I could store just the count of the row and column marked spots. That could also improve the performance of the check for win.
+
+How was there no free middle space? :)
+
+
+
 ## Part One
 
 You're already almost 1.5km (almost a mile) below the surface of the ocean, already so deep that you can't see any sunlight. What you can see, however, is a giant squid that has attached itself to the outside of your submarine.
@@ -73,5 +88,10 @@ To guarantee victory against the giant squid, figure out which board will win fi
 
 ## Part Two
 
-TODO: Content
+On the other hand, it might be wise to try a different strategy: let the giant squid win.
 
+You aren't sure how many bingo boards a giant squid could play at once, so rather than waste time counting its arms, the safe thing to do is to figure out which board will win last and choose that one. That way, no matter which boards it picks, it will win for sure.
+
+In the above example, the second board is the last to win, which happens after 13 is eventually called and its middle column is completely marked. If you were to keep playing until this point, the second board would have a sum of unmarked numbers equal to 148 for a final score of 148 * 13 = 1924.
+
+Figure out which board will win last. Once it wins, what would its final score be?
