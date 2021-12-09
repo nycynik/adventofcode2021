@@ -13,7 +13,7 @@
 | S  | M  | T  | W  | Th | F | S |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |   |   |   | [Day 01](./src/day01/README.md) ⭐⭐ | [Day 02](./src/day02/README.md) ⭐⭐ | [Day 03](./src/day03/README.md) ⭐⭐  | [Day 04](./src/day04/README.md) ⭐⭐ |
-| [Day 05](./src/day05/README.md) ⭐⭐ | [Day 06](./src/day06/README.md) ⭐⭐ | [Day 07](./src/day07/README.md) ⭐⭐  | [Day 08](./src/day08/README.md) ⭐⭐  |  |  |  |
+| [Day 05](./src/day05/README.md) ⭐⭐ | [Day 06](./src/day06/README.md) ⭐⭐ | [Day 07](./src/day07/README.md) ⭐⭐  | [Day 08](./src/day08/README.md) ⭐⭐  | [Day 09](./src/day09/README.md) ⭐⭐ |  |  |
 
 
 # Starter Template
