@@ -1,4 +1,5 @@
 // Advent of Code - Day 11 - Part Two
+import chalk from 'chalk';
 
 export function part2(input: string): number {
   
@@ -8,13 +9,13 @@ export function part2(input: string): number {
       let line = ''
       for (let col = 0; col < 10; col++) {
         if (board[(row * 10) + col] == 0)
-          line += '\x1b[36m@\x1b[33m'
+          line += chalk.cyan('@')
         else 
-          line += board[(row*10)+col]
+          line += chalk.yellow(board[(row*10)+col])
       }
       output += line + '\n'
     }
-    console.log('\x1b[33m%s\x1b[0m', output)
+    console.log(output)
   }
 
   let flashCount = 0
@@ -74,7 +75,7 @@ export function part2(input: string): number {
       } 
     }
     flashCount += stepFlashCount
-    console.log(`step ${simSteps+1} - ${flashCount} (new ${stepFlashCount})`)
+    console.log(chalk.blue.underline.bold(`step ${simSteps+1} - ${flashCount} (new ${stepFlashCount})`))
     printBoard(oceanFloor)
     if (stepFlashCount == 100) {
       console.log('DONE')
