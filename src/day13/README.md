@@ -33,7 +33,7 @@ Apparently, the Elves have never used this feature. To your surprise, you manage
 2,14
 8,10
 9,0
-<pre>
+</pre>
 
 fold along y=7
 fold along x=5
