@@ -63,8 +63,6 @@ export function part2(input: string): number {
     
   })
     
-  console.log(pathWays)
-
   const visited = new Map<string, number>()
   const pathHere = ['start']
   

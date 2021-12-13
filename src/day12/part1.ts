@@ -4,7 +4,7 @@ export function part1(input: string): number {
 
   const findAllPathsFrom =
     (start: string, pathWays: Map<string, Array<string>>,
-      visited: Map<string, number>, pathHere: Array<string>): string =>
+      visited: Map<string, number>, pathHere: Array<string>) =>
     {
       const localVisited = new Map(visited)
       if (start.toLowerCase() === start) {
@@ -13,14 +13,14 @@ export function part1(input: string): number {
       const startPaths = pathWays.get(start)
       startPaths?.forEach(node => {
         if (localVisited.has(node)) {
-          return ''
+          return
         }
         const nextPath = pathHere.concat([node])
         if (node === 'end') {
           // success!
           const found = nextPath
           foundPaths.push(found)
-          return 'wakka'
+          return
         } else {
           findAllPathsFrom(node, pathWays, localVisited, nextPath)
         }
