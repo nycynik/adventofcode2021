@@ -14,8 +14,8 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |   |   |   | [Day 01](./src/day01/README.md) ⭐⭐ | [Day 02](./src/day02/README.md) ⭐⭐ | [Day 03](./src/day03/README.md) ⭐⭐  | [Day 04](./src/day04/README.md) ⭐⭐ |
 | [Day 05](./src/day05/README.md) ⭐⭐ | [Day 06](./src/day06/README.md) ⭐⭐ | [Day 07](./src/day07/README.md) ⭐⭐  | [Day 08](./src/day08/README.md) ⭐⭐  | [Day 09](./src/day09/README.md) ⭐⭐ | [Day 10](./src/day10/README.md) ⭐⭐ | [Day 11](./src/day11/README.md) ⭐⭐ |
-| [Day 12](./src/day12/README.md) ⭐⭐ | [Day 13](./src/day13/README.md) ⭐⭐ | [Day 14](./src/day14/README.md) ⭐⭐ | | |
-
+| [Day 12](./src/day12/README.md) ⭐⭐ | [Day 13](./src/day13/README.md) ⭐⭐ | [Day 14](./src/day14/README.md) ⭐  | [Day 15](./src/day15/README.md)   | [Day 16](./src/day16/README.md) | [Day 17](./src/day17/README.md) ⭐⭐ | [Day 18](./src/day18/README.md) |
+| [Day 19](./src/day19/README.md) ⭐⭐ | [Day 20](./src/day20/README.md) ⭐⭐ | [Day 21](./src/day21/README.md) ⭐  | [Day 22](./src/day22/README.md) ⭐  | [Day 23](./src/day23/README.md) | [Day 24](./src/day24/README.md)  | [Day 25](./src/day25/README.md) |
 
 # Starter Template
 I started with this helpful starter - https://github.com/ljgago/advent-of-code-typescript-starter
