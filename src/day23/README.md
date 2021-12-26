@@ -2,6 +2,8 @@
 
 ## Puzzle Notes
 
+Did it by hand with https://amphipod.net/
+
 ## Part One
 
 A group of amphipods notice your fancy submarine and flag you down. "With such an impressive shell," one amphipod says, "surely you can help us with a question that has stumped our best scientists."
